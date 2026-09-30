@@ -12,4 +12,13 @@ class Point {
         ctx.fill();
     }
 
+    equals(point) {
+        if(this.x == point.x && this.y == point.y) {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
 }
